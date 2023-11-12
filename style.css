@@ -76,3 +76,38 @@ footer {
 hr {
   border: 1px solid black;
 }
+
+
+header h1,
+header nav {
+display:inline-block;
+}
+
+#about section:first-of-type {
+  display:flex;
+}
+
+#about section:first-of-type .col-left {
+  display:flex;flex-direction:column-reverse;width:50%
+}
+
+#about section:first-of-type .col-right {
+  width:50%;text-align:left;
+}
+
+#portfolio {
+  display:flex;
+}
+
+#portfolio section {
+  display:flex;
+  flex-direction:column;
+}
+#portfolio section p {
+  font-size:14px;
+  text-align:center;
+}
+
+#portfolio img {
+  vertical-align:top;
+}
